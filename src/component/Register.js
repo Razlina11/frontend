@@ -51,7 +51,6 @@ export default function Register() {
   .then(()=>navigate("/"))
  }
   return (
-    <>
     <form className="register" onSubmit={formik.handleSubmit}>
       <h1>Register</h1>
       <TextField id="outlined-basic" label="username" variant="outlined" value={formik.values.username} onChange={formik.handleChange} name='username' onBlur={formik.handleBlur} error={formik.touched.username && formik.errors.username} helperText={formik.touched.username && formik.errors.username ? formik.errors.username :null} />
@@ -60,7 +59,6 @@ export default function Register() {
       <Button variant="contained" type='submit'>Submit</Button>
       <h4>Do You Have Account?click here <Link to="/" >Login</Link></h4>
     </form>
-    </>
   )
 }
 
