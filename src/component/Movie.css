@@ -1,0 +1,30 @@
+
+/* .movie-poster{
+    padding: 50px;;
+}
+.movie-spec{
+    padding: 50px;;
+} */
+
+.movie-container{
+    margin: 30px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 5px 10px 20px red;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+.movie-poster{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.movie-spec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
