@@ -37,7 +37,7 @@ export default function Register() {
     validationSchema:regvalidationSchema,
     
     onSubmit:(values) =>{
-      // console.log(values)
+      console.log(values);
       register(values);
     }
   });
